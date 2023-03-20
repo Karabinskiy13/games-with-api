@@ -28,4 +28,16 @@ export type GamesResults = {
   playtime: number;
   suggestions_count: number;
   updated: string;
+  platforms: [
+    {
+      games_count: number;
+      id: number;
+      image: null;
+      image_background: string;
+      name: string;
+      slug: string;
+      year_end: null;
+      year_start: number;
+    }
+  ];
 };
